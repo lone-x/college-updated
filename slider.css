@@ -1,0 +1,54 @@
+.carousel .carousel-item {
+
+    height: 45em;
+  }
+
+  .carousel .carousel-item > *:first-child {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: inherit;
+  }
+
+ /*  @media screen and (min-width:1118px) {
+    .carousel .carousel-item > *:first-child {
+
+    }
+  } */
+
+  @media screen and (max-width:840px) {
+    .carousel .carousel-item {
+        height: 25em;
+    }
+  }
+
+  @media screen and (max-width:420px) {
+    .carousel .carousel-item {
+        height: 20em;
+    }
+    .carousel-control .icon-next, .carousel-control .icon-prev {
+        display: none;
+    }
+  }
+ .carousel-captions {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } 
+  .carousel-captions h3 {
+    font-size: clamp(4rem, 8vw, 6rem); /* Responsive font size with larger size range */
+    margin-bottom: 1rem;
+    color: #fff; /* Default color for h3 */
+  }
+  
+  .carousel-captions p {
+    font-size: clamp(1rem, 2vw, 1.5rem); /* Responsive font size */
+    color: rgba(255, 255, 255, 0.8); /* Default color for p with some opacity */
+  }
+  

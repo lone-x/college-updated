@@ -1,0 +1,155 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.abcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 50px 20px;
+    background: #ffffff;
+}
+
+.abcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.about-us img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    flex: 1 1 300px;
+}
+
+.about-text {
+    flex: 1 1 300px;
+    padding: 10px 50px;
+}
+
+.about-text h1 {
+    color: #000000;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.about-text hr {
+    width: 50px;
+    border: 2px solid #ff6600;
+    margin: 20px auto;
+}
+
+.about-text p {
+    color: #0f0f0f;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+.read-more:hover {
+    background: #e65c00;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff6600;
+}
+
+@media (max-width: 1024px) {
+    .about-text {
+        padding: 10px 30px;
+    }
+    .about-text h1 {
+        font-size: 1.8em;
+    }
+    .about-text p {
+        font-size: 1.1em;
+    }
+    .read-more {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 768px) {
+    .abcontainer {
+        padding: 50px 10px;
+    }
+    .about-us {
+        flex-direction: column;
+    }
+    .about-text {
+        text-align: center;
+        padding: 20px;
+    }
+    .about-us img {
+        max-width: 90%;
+    }
+    .about-text h1 {
+        font-size: 1.6em;
+    }
+    .about-text p {
+        font-size: 1em;
+    }
+    .read-more {
+        font-size: 0.9em;
+    }
+    .social-icons a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-text {
+        padding: 10px;
+    }
+    .about-us img {
+        max-width: 100%;
+    }
+    .about-text h1 {
+        font-size: 1.4em;
+    }
+    .about-text p {
+        font-size: 0.9em;
+    }
+    .read-more {
+        font-size: 0.8em;
+    }
+    .social-icons a {
+        font-size: 1em;
+    }
+}

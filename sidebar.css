@@ -1,0 +1,85 @@
+/* sidebar.css */
+
+/* Sidebar */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hide sidebar by default */
+    height: 100%;
+    width: 250px;
+    background: #343a40;
+    color: #fff;
+    transition: all 0.3s;
+    z-index: 1000; /* Ensure sidebar is above other content */
+}
+
+/* Show sidebar when active class is present */
+#sidebar.active {
+    left: 0;
+}
+
+/* Sidebar header */
+.sidebar-header {
+    padding: 20px;
+    text-align: center;
+    background: #212529;
+}
+
+/* Sidebar header text */
+.sidebar-header h3 {
+    margin-bottom: 0;
+}
+
+/* Sidebar menu */
+#sidebar ul.components {
+    padding: 20px 0;
+}
+
+/* Sidebar menu items */
+#sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Sidebar menu item links */
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+}
+
+/* Active menu item */
+#sidebar ul li.active > a,
+#sidebar ul li a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+/* Submenu */
+#sidebar ul ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Submenu items */
+#sidebar ul ul li {
+    margin-bottom: 5px;
+}
+
+/* Submenu item links */
+#sidebar ul ul li a {
+    padding: 5px;
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Hover effect for submenu items */
+#sidebar ul ul li a:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+/* Adjust content area when sidebar is active */
+#content {
+    padding-left: 250px; /* Same width as sidebar */
+}

@@ -1,0 +1,55 @@
+/* login.css */
+
+body {
+    font: 14px sans-serif;
+    background-color: #f8f9fa; /* Set background color */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Set background color */
+}
+
+.wrapper h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 20%;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.has-error .form-control {
+    border-color: #dc3545; /* Set border color for input with error */
+}
+
+.help-block {
+    color: #dc3545; /* Set error message color */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Set button background color */
+    border-color: #007bff; /* Set button border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Set button hover background color */
+    border-color: #0056b3; /* Set button hover border color */
+}
