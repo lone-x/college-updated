@@ -248,7 +248,7 @@ It is my pleasure to welcome you to Institute of Engineering and Technology (IET
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 <script src="header.js"></script>
-    <script src="slider.js"></script>
+<script src="slider.js"></script>
 <script src="marquee.js"></script>
 <script src="news.js"></script>
 </html>
