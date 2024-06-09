@@ -35,9 +35,8 @@ while ($row = mysqli_fetch_assoc($notiresult)) {
 // query for news
 $newsresult = $conn->query("SELECT id, title, content, image_url, slug, created_at FROM posts ORDER BY created_at DESC");
 // query for gallery
-$images_result1 = $conn->query("SELECT * FROM images LIMIT 10 OFFSET 0");
-$images_result2 = $conn->query("SELECT * FROM images LIMIT 10 OFFSET 10");
-$images_result3 = $conn->query("SELECT * FROM images LIMIT 10 OFFSET 20");
+$images_result1 = $conn->query("SELECT * FROM images WHERE featured = 1 LIMIT 8 ");
+
 ?>
 
 
@@ -255,55 +254,26 @@ It is my pleasure to welcome you to Institute of Engineering and Technology (IET
         </ul>
     </div>
 
-    <div style="height:150vh"></div>
+    
     </div>
     <!--gallery-->
-    <div class="gallery-body">
-    <div class="featured-section">
-        <h1 class="featured-title">Featured Images</h1>
-        <div class="marquee-container">
-            <div class="marquee">
-                <?php while ($image = $images_result1->fetch_assoc()): ?>
-                    <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
+    <div class="img-container">
+        <h2 >Gallery</h2>
+        <div class="image-grid">
+        <?php while ($image = $images_result1->fetch_assoc()): ?>
+                    <div class="image-item">
+                        <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
+                    </div>
                 <?php endwhile; ?>
-                <?php $images_result1->data_seek(0); // Reset the pointer to duplicate the images ?>
-                <?php while ($image = $images_result1->fetch_assoc()): ?>
-                    <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
-                <?php endwhile; ?>
-            </div>
         </div>
-        <div class="marquee-container">
-            <div class="marquee reverse">
-                <?php while ($image = $images_result2->fetch_assoc()): ?>
-                    <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
-                <?php endwhile; ?>
-                <?php $images_result2->data_seek(0); // Reset the pointer to duplicate the images ?>
-                <?php while ($image = $images_result2->fetch_assoc()): ?>
-                    <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
-                <?php endwhile; ?>
-            </div>
-        </div>
-        <div class="marquee-container">
-            <div class="marquee">
-                <?php while ($image = $images_result3->fetch_assoc()): ?>
-                    <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
-                <?php endwhile; ?>
-                <?php $images_result3->data_seek(0); // Reset the pointer to duplicate the images ?>
-                <?php while ($image = $images_result3->fetch_assoc()): ?>
-                    <img src="<?php echo htmlspecialchars($image['file_path']); ?>" class="img-fluid">
-                <?php endwhile; ?>
-            </div>
-        </div>
-        <div class="view-all-btn">
-            <a href="gallery.php" class="btn btn-primary btn-lg">View All Images</a>
-        </div>
+        <button class="view-more-button"><a href="gallery.php">View More</a></button>
     </div>
-</div>
 
+    <div style="height:150vh"></div>
 </body>
 
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>    
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
