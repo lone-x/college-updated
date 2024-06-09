@@ -49,6 +49,7 @@ $images_result3 = $conn->query("SELECT * FROM images LIMIT 10 OFFSET 20");
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="slider.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="marquee.css">
@@ -56,6 +57,7 @@ $images_result3 = $conn->query("SELECT * FROM images LIMIT 10 OFFSET 20");
     <link rel="stylesheet" href="news.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="princiquote.css">
+    <link rel="stylesheet" href="testimonial.css">
    <!--  <script>window.danteEmbed = "https://dante-ai.com/embed?kb_id=b9addd52-2d4a-4dbc-8e65-eee8ce2ddc10&token=cc3560dc-1f49-4b4a-9f87-9830fa59af5b&modeltype=gpt-3.5-turbo&mode=false&bubble=true&bubbleopen=false"</script><script src="https://dante-ai.com/bubble-embed.js"></script> -->
 </head>
 <body>
@@ -194,6 +196,64 @@ It is my pleasure to welcome you to Institute of Engineering and Technology (IET
         
     </div>
 </section>
+<!--testimonial-->
+<div class="carousel-wrapper">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <div class="carousel-item-custom active">
+                    <div class="carousel-img-box"><img alt="" src="images/testimonial/NEERAJ.jpg"></div>
+                    <div class="carousel-caption-custom">
+                        <h3> NEERAJ R K  (IT 2006-10)</h3>
+                        <h4>Co-founder & Director - Yarddiant Weblounge Pvt Ltd </h4>
+                        <p> My life at IET earned me an experimental learning opportunity with time-bounded managerial skills.
+                            The trust that our college has in its students to run so many events is a standout feature.
+                            I am grateful to be a part of one of the best engineering colleges in Kerala. </p>
+                    </div>
+                </div>
+                <div class="carousel-item-custom">
+                    <div class="carousel-img-box"><img alt="" src="images/testimonial/ATHILA.jpg"></div>
+                    <div class="carousel-caption-custom">
+                        <h3>ATHILA S (IT 2015-19)</h3>
+                        <h4>ORACLE INDIA </h4>
+                        <p> It gives me great pleasure to say that I have completed B.Tech from IET. 
+                            The relationship between students and teachers is cordial. 
+                            I would like to thank IET and my teachers
+                            for all the knowledge they shared that helped getting me a job I dreamed. </p>
+                    </div>
+                </div>
+                <div class="carousel-item-custom">
+                    <div class="carousel-img-box"><img alt="" src="images/testimonial/rakesh.jpg"></div>
+                    <div class="carousel-caption-custom">
+                        <h3>RAKESH R P (IT 2015-19)</h3>
+                        <h4>Software Engineer - Wizroots Technologies Pvt Ltd </h4>
+                        <p>IET has been the most fascinating experience of my life. It has helped me nurture my skills as an engineer. 
+                            I will always owe my success to my teachers who helped me become the person I am today. </p>
+                    </div>
+                </div>
+                <div class="carousel-item-custom">
+                    <div class="carousel-img-box"><img alt="" src="images/testimonial/sheela(1).jpg"></div>
+                    <div class="carousel-caption-custom">
+                        <h3>Sheela Ravindran (IT 2001-05)</h4>
+                        <h4>Procurement Lead - City Facilities Management Australia</h4>
+                        <p>I had a great time at the Institute of Engineering and Technology. The excellent 
+                            facilities at IET inspired me to give my best. 
+                            I am very thankful to all the competent and excellent professors
+                            at IET who endowed me with lifelong career excellence. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Controls -->
+            <button class="carousel-control-custom carousel-control-left" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-control-custom carousel-control-right" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <!-- Indicators -->
+        <ul class="carousel-indicators-custom">
+            <li onclick="currentSlide(0)" class="active-custom"></li>
+            <li onclick="currentSlide(1)"></li>
+            <li onclick="currentSlide(2)"></li>
+            <li onclick="currentSlide(3)"></li>
+        </ul>
+    </div>
 
     <div style="height:150vh"></div>
     </div>
@@ -251,4 +311,5 @@ It is my pleasure to welcome you to Institute of Engineering and Technology (IET
 <script src="slider.js"></script>
 <script src="marquee.js"></script>
 <script src="news.js"></script>
+<script src="testimonial.js"></script>
 </html>
