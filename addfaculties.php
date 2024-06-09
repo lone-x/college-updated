@@ -83,7 +83,9 @@ $conn->close();
             <div class="form-group">
                 <label for="position">Position:</label>
                 <select class="form-control" id="position" name="position" required onchange="showOtherPosition()">
-                    <option value="Teacher">Teacher</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Assistant Professor">Assistant Professor</option>
+                    <option value="Instructor">Instructor</option>
                     <option value="HOD">HOD</option>
                     <option value="Others">Others</option>
                 </select>

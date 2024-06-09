@@ -90,7 +90,9 @@ $conn->close();
         <div class="form-group">
             <label for="position">Position:</label>
             <select class="form-control" id="position" name="position" required onchange="showOtherPosition()">
-                <option value="Teacher" <?php if ($faculty['position'] == 'Teacher') echo 'selected'; ?>>Teacher</option>
+                <option value="Professor" <?php if ($faculty['position'] == 'Professor') echo 'selected'; ?>>Professor</option>
+                <option value="Assistant Professor" <?php if ($faculty['position'] == 'Assistant Professor') echo 'selected'; ?>>Assistant Professor</option>
+                <option value="Instructor" <?php if ($faculty['position'] == 'Instructor') echo 'selected'; ?>>Instructor</option>
                 <option value="HOD" <?php if ($faculty['position'] == 'HOD') echo 'selected'; ?>>HOD</option>
                 <option value="Others" <?php if ($faculty['position'] == 'Others') echo 'selected'; ?>>Others</option>
             </select>
