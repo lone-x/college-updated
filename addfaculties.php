@@ -1,5 +1,6 @@
 <?php
 require_once 'database.php';
+require_once 'restricted.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
@@ -54,6 +55,7 @@ $conn->close();
     </style>
 </head>
 <body>
+    <?php include 'sidebar4.php'; ?>
     <div class="container">
         <h1 class="text-center">Add Faculty</h1>
         <form action="addfaculties.php" method="post" enctype="multipart/form-data">

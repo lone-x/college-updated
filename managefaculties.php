@@ -1,6 +1,7 @@
 <?php
 // Include database connection
 require_once 'database.php';
+require_once 'restricted.php';
 
 $sql = "SELECT * FROM faculties";
 $result = $conn->query($sql);
@@ -15,6 +16,7 @@ $result = $conn->query($sql);
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+<?php include 'sidebar4.php'; ?>
 <div class="container">
     <h1 class="text-center mt-5">Manage Faculties</h1>
     <table class="table table-bordered table-striped mt-3">
@@ -47,7 +49,7 @@ $result = $conn->query($sql);
         }
         ?>
         </tbody>
-    </table>
+  /table>
 </div>
 
 <!-- Bootstrap JS and dependencies -->

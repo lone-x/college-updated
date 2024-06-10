@@ -39,7 +39,7 @@
                 <div class="nav__items">
                     <h3 class="nav__subtitle">Profile</h3>
 
-                    <a href="#" class="nav__link active">
+                    <a href="dashboard.php" class="nav__link active">
                         <i class='bx bx-home nav__icon' ></i>
                         <span class="nav__name">Home</span>
                     </a>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="nav__dropdown">
                         <a href="#" class="nav__link">
-                            <i class='bx bx-user nav__icon' ></i>
+                            <i class='bx bx-carousel nav__icon' ></i>
                             <span class="nav__name">Slider</span>
                             <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                         </a>
@@ -69,13 +69,13 @@
                         <div class="nav__dropdown-collapse">
                             <div class="nav__dropdown-content">
                                 <a href="addslider.php" class="nav__dropdown-item">Add slider</a>
-                                <a href="editslides.php" class="nav__dropdown-item">Edit slider</a>
+                                <a href="editslides.php" class="nav__dropdown-item">Manage slider</a>
                             </div>
                         </div>
                     </div>
                     <div class="nav__dropdown">
                         <a href="#" class="nav__link">
-                            <i class='bx bx-user nav__icon' ></i>
+                            <i class='bx bx-notification nav__icon' ></i>
                             <span class="nav__name">notification</span>
                             <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                         </a>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="nav__dropdown">
                         <a href="#" class="nav__link">
-                            <i class='bx bx-user nav__icon' ></i>
+                            <i class='bx bx-news nav__icon' ></i>
                             <span class="nav__name">news</span>
                             <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                         </a>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="nav__dropdown">
                         <a href="#" class="nav__link">
-                            <i class='bx bx-user nav__icon' ></i>
+                            <i class='bx bx-images nav__icon' ></i>
                             <span class="nav__name">gallery</span>
                             <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
                         </a>
@@ -112,6 +112,20 @@
                             <div class="nav__dropdown-content">
                                 <a href="add_images.php" class="nav__dropdown-item">Add images</a>
                                 <a href="manage_images.php" class="nav__dropdown-item">Manage images</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav__dropdown">
+                        <a href="#" class="nav__link">
+                            <i class='bx bx-id-card nav__icon' ></i>
+                            <span class="nav__name">faculties</span>
+                            <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                        </a>
+
+                        <div class="nav__dropdown-collapse">
+                            <div class="nav__dropdown-content">
+                                <a href="addfaculties.php" class="nav__dropdown-item">Add faculties</a>
+                                <a href="managefaculties.php" class="nav__dropdown-item">Manage faculties</a>
                             </div>
                         </div>
                     </div>
