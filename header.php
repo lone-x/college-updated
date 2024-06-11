@@ -48,12 +48,11 @@
                                 </div>
                                 <span class="custom-dropdown__title">Academics</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">BTech Regulation</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Prospectus</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Fee Structure</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Syllabus</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Internal Marks</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Previous Question Papers</a></li>
+                                    <li><a href="btech_regulation.php" class="custom-dropdown__link">BTech Regulation</a></li>
+                                    <li><a href="downloads/Prospectus20-21.pdf" class="custom-dropdown__link">Prospectus</a></li>
+                                    <li><a href="fee_structure.php" class="custom-dropdown__link">Fee Structure</a></li>
+                                    <li><a href="syllabus.php" class="custom-dropdown__link">Syllabus</a></li>
+                                    <li><a href="questionp.php" class="custom-dropdown__link">Previous Question Papers</a></li>
                                 </ul>
                             </div>
                             <div class="custom-dropdown__group">
@@ -76,10 +75,9 @@
                                 </div>
                                 <span class="custom-dropdown__title">Placements</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">Placement Home</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Placed Students</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Training</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Team CGPC</a></li>
+                                    <li><a href="placement.php" class="custom-dropdown__link">Placement Home</a></li>
+                                    <li><a href="placement.php#ps" class="custom-dropdown__link">Placed Students</a></li>
+                                    <li><a href="placement.php#cgpc" class="custom-dropdown__link">Team CGPC</a></li>
                                 </ul>
                             </div>
                         </div>
