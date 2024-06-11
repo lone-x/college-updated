@@ -61,12 +61,12 @@
                                 </div>
                                 <span class="custom-dropdown__title">Departments</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">Electronics and Communication</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Electrical and Electronics</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Mechanical Engineering</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Information Technology</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Printing Technology</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Science and Humanities</a></li>
+                                    <li><a href="dept_ec.php" class="custom-dropdown__link">Electronics and Communication</a></li>
+                                    <li><a href="dept_eee.php" class="custom-dropdown__link">Electrical and Electronics</a></li>
+                                    <li><a href="dept_me.php" class="custom-dropdown__link">Mechanical Engineering</a></li>
+                                    <li><a href="dept_it.php" class="custom-dropdown__link">Information Technology</a></li>
+                                    <li><a href="dept_pt.php" class="custom-dropdown__link">Printing Technology</a></li>
+                                    <!-- <li><a href="#" class="custom-dropdown__link">Science and Humanities</a></li> -->
                                 </ul>
                             </div>
                             <div class="custom-dropdown__group">
@@ -96,12 +96,11 @@
                                 </div>
                                 <span class="custom-dropdown__title">Student Zone</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">Instruction Students</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Students Union</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">NSS</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">IEDC</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">TinkerHub</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">HackClub</a></li>
+                                    <li><a href="downloads/Instruction.pdf" class="custom-dropdown__link">Instruction Students</a></li>
+                                    <li><a href="union.php" class="custom-dropdown__link">Students Union</a></li>
+                                    <li><a href="nss.php" class="custom-dropdown__link">NSS</a></li>
+                                    <li><a href="iedc.php" class="custom-dropdown__link">IEDC</a></li>
+                                    <li><a href="tinkerhub.php" class="custom-dropdown__link">TinkerHub</a></li>
                                 </ul>
                             </div>
                             <div class="custom-dropdown__group">
@@ -110,9 +109,9 @@
                                 </div>
                                 <span class="custom-dropdown__title">Facilities</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">Life at IET</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Facilities</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Events</a></li>
+                                    <li><a href="life.php" class="custom-dropdown__link">Life at IET</a></li>
+                                    <li><a href="facilties.php" class="custom-dropdown__link">Facilities</a></li>
+                                    <li><a href="evevnts.php" class="custom-dropdown__link">Events</a></li>
                                 </ul>
                             </div>
                             <div class="custom-dropdown__group">
@@ -121,17 +120,17 @@
                                 </div>
                                 <span class="custom-dropdown__title">Others</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">Recent News</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Previous Question Papers</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Syllabus</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">FAQ</a></li>
+                                    <li><a href="allnews.php" class="custom-dropdown__link">Recent News</a></li>
+                                    <li><a href="questionp.php" class="custom-dropdown__link">Previous Question Papers</a></li>
+                                    <li><a href="syllabus.php" class="custom-dropdown__link">Syllabus</a></li>
+                                    <li><a href="faq.php" class="custom-dropdown__link">FAQ</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <a href="#" class="custom-nav__link">Admission</a>
+                    <a href="admission.php" class="custom-nav__link">Admission</a>
                 </li>
                 <!--=============== DROPDOWN 3 ===============-->
                 <li class="custom-dropdown__item">

@@ -1,0 +1,41 @@
+.facilities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.facilities .card {
+    width: 30%;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.facilities .card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.facilities .card-body {
+    background-color: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #f8f9fa;
+}
+.facilities .card-body h5 {
+    font-size: 1.25rem;
+    color: #192f58;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.facilities .card-body p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .facilities .card {
+        width: 100%;
+    }
+}

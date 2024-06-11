@@ -56,23 +56,23 @@
                     </tr>
                     <tr>
                         <td>Semester 4</td>
-                        <td>Course 4</td>
-                        <td>Course 4</td>
+                        <td><a href="downloads/qp/4th_20_april23.pdf">April 2023(2019 scheme)</a></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Semester 5</td>
-                        <td>Course 5</td>
-                        <td>Course 5</td>
+                        <td><a href="downloads/qp/5th_sem_2019scheme.pdf">Nov 2021(2019 scheme)</a></td>
+                        <td><a href="downloads/qp/5th_sem_2014scheme.pdf">Nov 2021(2014 scheme)</a></td>
                     </tr>
                     <tr>
                         <td>Semester 6</td>
-                        <td>Course 6</td>
-                        <td>Course 6</td>
+                        <td><a href="downloads/qp/6th-sem-qp.pdf">April 2022(2019 scheme)</a></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Semester 7</td>
-                        <td>Course 7</td>
-                        <td>Course 7</td>
+                        <td><a href="downloads/qp/7th_sem.pdf">Nov 2022(2019 scheme)</a></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>Semester 8</td>

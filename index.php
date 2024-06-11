@@ -57,6 +57,7 @@ $images_result1 = $conn->query("SELECT * FROM images WHERE featured = 1 LIMIT 8 
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="princiquote.css">
     <link rel="stylesheet" href="testimonial.css">
+    <link rel="stylesheet" href="facilities.css">
    <!--  <script>window.danteEmbed = "https://dante-ai.com/embed?kb_id=b9addd52-2d4a-4dbc-8e65-eee8ce2ddc10&token=cc3560dc-1f49-4b4a-9f87-9830fa59af5b&modeltype=gpt-3.5-turbo&mode=false&bubble=true&bubbleopen=false"</script><script src="https://dante-ai.com/bubble-embed.js"></script> -->
 </head>
 <body>
@@ -195,6 +196,60 @@ It is my pleasure to welcome you to Institute of Engineering and Technology (IET
         
     </div>
 </section>
+
+<!--facilities-->
+<h2 class="section-title">Facilities</h2>
+<br>
+<div class="container">
+<div class="facilities" style="text-align: center">
+                <div class="card">
+                    <img src="images/library.jpg" class="card-img-top" alt="Library">
+                    <div class="card-body">
+                        <h5 class="card-title">College Library</h5>
+                        <p class="card-text">A vast collection of books, journals, and other resources to support research and academic endeavors.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/conference-room.jpg" class="card-img-top" alt="Conference Room">
+                    <div class="card-body">
+                        <h5 class="card-title">Conference Room</h5>
+                        <p class="card-text">An ideal venue for seminars, guest lectures, and other academic events.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/lang-lab.jpg" class="card-img-top" alt="Language Lab">
+                    <div class="card-body">
+                        <h5 class="card-title">Language Lab</h5>
+                        <p class="card-text">Equipped with modern technology to improve students' communication skills and language proficiency.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/placement-hall.jpg" class="card-img-top" alt="Placement Hall">
+                    <div class="card-body">
+                        <h5 class="card-title">Placement Hall</h5>
+                        <p class="card-text">A venue for seminars, guest lectures, and other academic events.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/ElectronicsLab.jpg" class="card-img-top" alt="Electronics Lab">
+                    <div class="card-body">
+                        <h5 class="card-title">Electronics Lab</h5>
+                        <p class="card-text">Offers practical training and hands-on experience in various engineering disciplines.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/MechanicalWorkshop.jpg" class="card-img-top" alt="Mechanical Lab">
+                    <div class="card-body">
+                        <h5 class="card-title">Mechanical Lab</h5>
+                        <p class="card-text">Provides hands-on training in mechanical engineering concepts and practices.</p>
+                    </div>
+                </div>
+                
+            </div >
+            <div style="text-align: center">
+            <button class="view-more-button"><a href="facilties.php">View More</a></button>
+            </div>
+</div>
 <!--testimonial-->
 <div class="carousel-wrapper">
         <div class="carousel-container">
