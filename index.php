@@ -188,7 +188,7 @@ $images_result1 = $conn->query("SELECT * FROM images WHERE featured = 1 LIMIT 8 
                 <b> “Education is not the learning of facts, but the training of minds to think” - Albert Einstein <br></b>
 It is my pleasure to welcome you to Institute of Engineering and Technology (IET), the only Engineering institution governed by the University of Calicut. We know that, technical education facilitates the acquisition of practical and applied skills as well as basic scientific knowledge...
                 </blockquote>
-                <a href="#" class="t-bq-button">read more</a>
+                <a href="principal_desk.php" class="t-bq-button">read more</a>
             </div>
            
         </div>

@@ -76,6 +76,6 @@ a {
 }
 @media screen and (min-width:1118px) {
   .custom-main {
-      margin-top: calc(var(--header-height) + 2rem);
+      margin-top: calc(var(--header-height) + 3rem);
   }
 }

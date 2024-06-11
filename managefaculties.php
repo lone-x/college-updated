@@ -49,7 +49,7 @@ $result = $conn->query($sql);
         }
         ?>
         </tbody>
-  /table>
+    </table>
 </div>
 
 <!-- Bootstrap JS and dependencies -->

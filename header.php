@@ -18,7 +18,7 @@
         <div class="custom-nav__menu" id="nav-menu">
             <ul class="custom-nav__list">
                 <li>
-                    <a href="#" class="custom-nav__link">Home</a>
+                    <a href="index.php" class="custom-nav__link">Home</a>
                 </li>
                 <!--=============== DROPDOWN 1 ===============-->
                 <li class="custom-dropdown__item">
@@ -33,13 +33,13 @@
                                 </div>
                                 <span class="custom-dropdown__title">About Us</span>
                                 <ul class="custom-dropdown__list">
-                                    <li><a href="#" class="custom-dropdown__link">The College</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Principal Desk</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Governing Body</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Abstract Program Outcomes</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">EOA/LOA</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Administration</a></li>
-                                    <li><a href="#" class="custom-dropdown__link">Right to Information</a></li>
+                                    <li><a href="Aboutus.php" class="custom-dropdown__link">The College</a></li>
+                                    <li><a href="principal_desk.php" class="custom-dropdown__link">Principal Desk</a></li>
+                                    <li><a href="governingbody.php" class="custom-dropdown__link">Governing Body</a></li>
+                                    <li><a href="abstractprogram.php" class="custom-dropdown__link">Abstract Program Outcomes</a></li>
+                                    <li><a href="EOALOA.php" class="custom-dropdown__link">EOA/LOA</a></li>
+                                    <li><a href="administration.php" class="custom-dropdown__link">Administration</a></li>
+                                    <li><a href="rti.php" class="custom-dropdown__link">Right to Information</a></li>
                                 </ul>
                             </div>
                             <div class="custom-dropdown__group">
